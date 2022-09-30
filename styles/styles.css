@@ -1,0 +1,75 @@
+body {
+  background-color: #e5e5e5;
+  font-family: Roboto, Raleway;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+}
+ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+/* header */
+.menu {
+  display: flex;
+  width: 1600px;
+  height: 80px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-bottom: 1px;
+}
+.menu-logo {
+  color: #000000;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+  letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-left: 215px;
+  display: flex;
+}
+.menu-logo-web {
+  color: #2196f3;
+}
+.nav-list {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  padding-left: 93px;
+}
+.nav-list-portfolio {
+  padding-left: 46px;
+}
+.nav-list-kontakt {
+  padding-left: 64px;
+}
+.menu-contacts {
+  color: #757575;
+  font-size: 16px;
+  padding-left: 353px;
+  margin-top: 32px;
+}
+.menu-contacts-tel {
+  padding-left: 50px;
+}
+.hover:hover {
+  color: #2196f3;
+}
+/* header */
+/* main */
+/* main-1 */
+/* main-1 */
+/* main-2 */
+/* main-2 */
+/* main-3 */
+/* main-3 */
+/* main */
+/* footer */
+/* footer */

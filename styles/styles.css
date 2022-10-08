@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   font-family: Roboto;
 }
 .link {
@@ -10,9 +10,6 @@ body {
 }
 .link:hover {
   color: #2196f3;
-}
-.background-1 {
-  background-color: #ffffff;
 }
 .link-logo {
   text-decoration: none;
@@ -42,7 +39,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
-.background-2 {
+.background-1 {
   background-color: #2f303a;
 }
 .slogan {
@@ -65,9 +62,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.background-3 {
-  background-color: #ffffff;
-}
 .general-list-title {
   color: #212121;
   font-weight: 700;
@@ -86,7 +80,7 @@ body {
   line-height: 1.17;
   text-align: center;
 }
-.background-4 {
+.background-2 {
   background-color: #f5f4fa;
 }
 .team-photo {
@@ -108,7 +102,7 @@ body {
   line-height: 1.19;
   text-align: center;
 }
-.background-5 {
+.background-3 {
   background-color: #2f303a;
 }
 .portfolio-contacts-title {

@@ -1,40 +1,48 @@
+:root {
+  --colorA: #ffffff;
+  --colorB: #2196f3;
+  --colorC: #757575;
+  --colorD: #000000;
+  --colorE: #212121;
+  --colorF: #f5f4fa;
+}
 body {
-  background-color: #ffffff;
+  background-color: var(--colorA);
   font-family: Roboto;
 }
 .link {
   text-decoration: none;
 }
 .link:focus {
-  color: #2196f3;
+  color: var(--colorB);
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--colorB);
 }
 .link-logo {
   text-decoration: none;
 }
 .logo {
-  color: #000000;
+  color: var(--colorD);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--colorB);
 }
 .list {
   list-style: none;
 }
 .wayfinding-list-item {
-  color: #212121;
+  color: var(--colorE);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 .contacts {
-  color: #757575;
+  color: var(--colorC);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -43,18 +51,18 @@ body {
   background-color: #2f303a;
 }
 .slogan {
-  color: #ffffff;
+  color: var(--generalbackground);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
 }
 .slogan-btn {
-  background-color: #2196f3;
+  background-color: var(--colorB);
   width: 200px;
   height: 50px;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--colorA);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -63,41 +71,41 @@ body {
   border-radius: 4px;
 }
 .general-list-title {
-  color: #212121;
+  color: var(--colorE);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 .general-list-description {
-  color: #757575;
+  color: var(--colorC);
   font-size: 14px;
   line-height: 1.5;
 }
 .title {
-  color: #212121;
+  color: var(--colorE);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 .background-b {
-  background-color: #f5f4fa;
+  background-color: var(--colorF);
 }
 .team-photo {
-  background-color: #ffffff;
+  background-color: var(--colorA);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .team-photo-title {
-  color: #212121;
+  color: var(--colorEcolorE);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 .team-photo-description {
-  color: #757575;
+  color: var(--colorC);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -106,21 +114,21 @@ body {
   background-color: #2f303a;
 }
 .portfolio-contacts-title {
-  color: #ffffff;
+  color: var(--colorA);
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
 }
 .portfolio-contacts {
-  color: #ffffff;
+  color: var(--colorA);
   font-size: 14px;
   line-height: 1.7;
 }
 .portfolio-background {
-  background-color: #ffffff;
+  background-color: var(--colorA);
 }
 .portfolio-btn {
-  background-color: #f5f4fa;
+  background-color: var(--colorF);
   width: 93px;
   height: 38px;
   border-radius: 4px;
@@ -133,7 +141,7 @@ body {
   font-family: inherit;
 }
 .portfolio-btn:hover {
-  background-color: #2196f3;
+  background-color: var(--colorB);
   width: 121px;
   height: 38px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -142,7 +150,7 @@ body {
   border-style: none;
 }
 .portfolio-btn:focus {
-  background-color: #2196f3;
+  background-color: var(--colorB);
   width: 121px;
   height: 38px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),

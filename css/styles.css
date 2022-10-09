@@ -51,7 +51,7 @@ body {
   background-color: #2f303a;
 }
 .slogan {
-  color: var(--generalbackground);
+  color: var(--colorA);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

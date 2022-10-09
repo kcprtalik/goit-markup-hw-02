@@ -39,7 +39,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
-.background-1 {
+.background-a {
   background-color: #2f303a;
 }
 .slogan {
@@ -80,7 +80,7 @@ body {
   line-height: 1.17;
   text-align: center;
 }
-.background-2 {
+.background-b {
   background-color: #f5f4fa;
 }
 .team-photo {
@@ -102,7 +102,7 @@ body {
   line-height: 1.19;
   text-align: center;
 }
-.background-3 {
+.background-c {
   background-color: #2f303a;
 }
 .portfolio-contacts-title {
